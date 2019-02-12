@@ -1,0 +1,5 @@
+server:
+  port: 8082
+my:
+  name: wu
+  age: 4

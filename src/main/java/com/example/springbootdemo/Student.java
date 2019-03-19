@@ -7,7 +7,8 @@ import org.springframework.data.jpa.repository.Query;
 import java.util.List;
 
 public interface Student extends JpaRepository<My,Integer>,JpaSpecificationExecutor<My> {
-    List<My> findAll();
+   
+	List<My> findAll();
 
     @Query(nativeQuery = true,value = "SELECT * FROM my where name=?1 and age=?2")
     List<My> getWu(String name,Integer age);

@@ -18,7 +18,8 @@ public class MyProperties {
     public void setName(String name) {
         this.name = name;
     }
-
+    
+    //tijiao2
     public String getAge() {
         return age;
     }

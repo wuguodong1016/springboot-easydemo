@@ -6,15 +6,15 @@ import org.springframework.stereotype.Component;
 @Component
 @ConfigurationProperties(prefix = "my")
 public class MyProperties {
-	
-	//asd4
+
+	//huncun1
     private String name;
     private String age;
-
+    
     public String getName() {
         return name;
     }
-
+    
     public void setName(String name) {
         this.name = name;
     }

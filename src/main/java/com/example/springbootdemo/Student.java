@@ -12,6 +12,7 @@ public interface Student extends JpaRepository<My,Integer>,JpaSpecificationExecu
 
     @Query(nativeQuery = true,value = "SELECT * FROM my where name=?1 and age=?2")
     List<My> getWu(String name,Integer age);
-
+    
+    //对源文件进行修改
     List<My> findByAge(Integer age);
 }

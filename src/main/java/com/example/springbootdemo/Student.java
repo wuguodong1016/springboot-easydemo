@@ -8,6 +8,7 @@ import java.util.List;
 
 public interface Student extends JpaRepository<My,Integer>,JpaSpecificationExecutor<My> {
    
+	//已经写过的内容
 	List<My> findAll();
 
     @Query(nativeQuery = true,value = "SELECT * FROM my where name=?1 and age=?2")

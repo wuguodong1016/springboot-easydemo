@@ -26,6 +26,7 @@ public class JPAController {
 
     @Autowired
     private MyProperties properties;
+    
     @Autowired
     private Student sturdent;
 

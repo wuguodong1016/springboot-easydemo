@@ -6,6 +6,7 @@ import org.springframework.stereotype.Component;
 @Component
 @ConfigurationProperties(prefix = "my")
 public class MyProperties {
+	
     private String name;
     private String age;
 
